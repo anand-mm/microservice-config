@@ -4,5 +4,12 @@ spring:
     username: admin
     password:
 
+  jpa:
+    hibernate:
+      ddl-auto: none
+  sql:
+    init:
+      mode: always
+
 server:
   port: 8091
